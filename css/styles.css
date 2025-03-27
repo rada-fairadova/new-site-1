@@ -1,3 +1,8 @@
+.container {
+	width: 100%;
+	align-content: center;
+}
+
 .registration-text {
 	color: grey;
 }
@@ -23,6 +28,10 @@ input {
   border-left: none;
   border-top: none;
   border-right: none;
+}
+
+label {
+	color: grey;
 }
 
 input[type='radio'],
@@ -64,4 +73,18 @@ input[type='radio']:checked::after {
   background-color: green;
   transform: translate(-50%, -50%);
   visibility: visible;
+}
+
+.create-account {
+	width: 250px;
+	height: 40px;
+	background-color: green;
+	color: white;
+	border-radius: 0%;
+}
+
+.switch-screen {
+	font-size: 15px;
+	color: grey;
+	text-decoration: none;
 }
